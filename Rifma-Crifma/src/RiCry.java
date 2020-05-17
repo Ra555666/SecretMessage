@@ -21,7 +21,7 @@ public class RiCry extends JFrame {
 	private JTextPane decryptionOutputTextField;
 	private JButton btnRetry;
 	private JButton btnConfirm;
-	private String[] goodDecriptions = { "best progrommer", "best of the best", "steel balls", "clever guy", "handsome",
+	private String[] goodDecriptions = { "best progrommer", "best of the best of the best", "steel balls", "clever guy", "handsome",
 			"rich", "ruler of the world", "god of Java", "magnificent", "sempiternal", "wonderful", "gorgeous" };
 	private String[] badDecriptions = { "fucked", "fucking fool", "fucking idiot", "douchebag", "loser", "hooker",
 			"motherfucker", "twit", "moron", "ass-kisser", "bugger", "asshole" };
