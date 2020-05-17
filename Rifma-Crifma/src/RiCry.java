@@ -27,6 +27,7 @@ public class RiCry extends JFrame {
 			"motherfucker", "twit", "moron", "ass-kisser", "bugger", "asshole" };
 
 	public void startScreen() {
+		goodOrBad = chckbxResultDecryption.isSelected();
 		getNameTextField.setEditable(true);
 		numOfDecription = (int) (Math.random() * 12);
 		getNameTextField.setText("");
@@ -37,7 +38,7 @@ public class RiCry extends JFrame {
 	}
 
 	public void giveDecryption() {
-		goodOrBad = chckbxResultDecryption.isSelected();
+		goodOrBad = chckbxResultDecryption.isEnabled();
 		String name = getNameTextField.getText();
 		String message = "";
 		if (goodOrBad && (name != null && !name.isEmpty())) {
